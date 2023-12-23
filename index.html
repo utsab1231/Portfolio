@@ -2,118 +2,235 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Utsab Adhikari</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="favicon.ico?v=2" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3640831095185191"
-     crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&family=Ubuntu+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
   </head>
-
   <body>
-    <div class="first_container">
-      <img class="cloud1" src="images/cloud.png" alt="cloud1" />
-      <h1 class="name">I'm Utsab</h1>
-      <p class="header">Aspiring MERN STACK DEVELOPER</p>
-      <img class="cloud2" src="images/cloud.png" alt="cloud2" />
-      <img src="images/mountain.png" alt="mountain" />
-    </div>
-    <div class="second_container">
-      <div class="middle-container">
-        <div class="profile">
-          <img src="/images/photos.jpg" alt="my-photo" />
+    <header class="header">
+      <a href="#home" class="logo">Utsab <span>Adhikari</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-          <h2>नमस्ते </h2>
-          <p>I am a student , currently reading . Doing nothing .</p>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi</h3>
+        <h1>It's <span>Utsab</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          A 23-year-old Computer Engineering student diving into the MERN stack.
+          When I'm not coding, I'm kicking it on the football field—love the
+          rush of the game! <br />Computers? My lifelong fascination—they're
+          like a universe of endless possibilities. Join me as I fuse tech with
+          my football passion, aiming to make a mark by mixing skill and fun!
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/utsab1231"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://linkedin.com/in/utsab01"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://instagram.com/uts_ab"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/utsab.adhikari.35"
+            ><i class="bx bxl-facebook-square"></i
+          ></a>
         </div>
-        <hr />
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img
-              class="network-image"
-              src="/images/network.gif"
-              alt="this is network gif"
-            />
-            <h3>Networking Basics</h3>
-            <p>
-              I have the basic knowledge about the Networks used in computer
-              system , as well as physical networking devices. I also have
-              knowledge about how DNS , VPN and other networking software works.
-              I am also well experienced with the working of Network based tools
-              like Burpsuite , and Wireshark.
-            </p>
-          </div>
-          <div class="skill-row">
-            <img
-              class="python-image"
-              src="/images/python.gif"
-              alt="this is python image"
-            />
-            <h3>Python and Scripting</h3>
-            <p>
-              I have a good knowledge of Python language and done some minor as
-              well as major projects with python as primary language. I also
-              have good knowledge about scripting used in Computer system such
-              as Bash and also is familiar with language like SQL .
-            </p>
-          </div>
-          <div class="skill-row">
-            <img
-              class="linux-image"
-              src="/images/linux.png"
-              alt="this is linux"
-            />
-            <h3>Linux Basics</h3>
-            <p>
-              As in Cyber-Security since Linux is the most used operating system
-              . I have a master the linux basics and well known to the file
-              system used in Linux .
-            </p>
+        <a
+          href="https://cdn.githubraw.com/utsab1231/imagestorage/main/UTSAB_ADHIKARI_Resume_19-09-2023-20-57-08.pdf"
+          download="Utsab_Adhikari_Resume.pdf"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="assets/mypic.png" alt="Utsab Adhikari" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/myabout.png" alt="Utsab Adhikari" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 class="text-animation"><span></span></h3>
+        <p>
+          Hey there, <br />I'm Utsab, hailing from Kathmandu, Nepal! An
+          introvert by nature, you'll often find me immersed in my laptop
+          screen. Beyond that, I'm a gamer, a hiking enthusiast, and a travel
+          aficionado (well, planning to be one, haven't explored much yet!). I'm
+          that person who's always up for an adventure, whether it's conquering
+          a real-life challenge or trekking through nature's wonders. Despite
+          being a homeboy, drop a message before visiting.I might just be in my
+          not wanting to see anyone zone!😁😁
+        </p>
+        <a href="https://api.whatsapp.com/send?phone=9860516590" class="btn"
+          >Want to know more, about me ?
+        </a>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-container">
+        <div class="projects-box">
+          <img
+            src="https://images.unsplash.com/photo-1598791318878-10e76d178023?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHRvZG98ZW58MHx8MHx8fDA%3D"
+            alt="todoapp image"
+          />
+          <div class="projects-info">
+            <h4>Todo App</h4>
+            <p>A full-stak app to store your todos</p>
+            <a href="https://todoapp-utsab.netlify.app/">
+              <i class="bx bx-link"></i>
+            </a>
           </div>
         </div>
-        <hr />
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>If you want to have fun</h3>
-          <p class="contact-msg">
-            Just want to hire me ? Let's talk , have fun and do the work
-          </p>
-          <a class="btn" href="mailto:utssabad10@gmail.com">CONTACT ME</a>
+
+        <div class="projects-box">
+          <img
+            src="https://images.unsplash.com/photo-1533327325824-76bc4e62d560?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGJvb2tzdG9yZXxlbnwwfHwwfHx8MA%3D%3D"
+            alt="bookstore image"
+          />
+          <div class="projects-info">
+            <h4>BookStore App</h4>
+            <p>A full-stack mern app to store and manage your book's details</p>
+            <a href="https://bookstore-app-utsab.netlify.app/">
+              <i class="bx bx-link"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="projects-box">
+          <img
+            src="https://images.unsplash.com/photo-1485095329183-d0797cdc5676?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="movie image"
+          />
+          <div class="projects-info">
+            <h4>Movie API</h4>
+            <p>An API to perform CRUD operation on movie database</p>
+            <a href="https://github.com/utsab1231/movie_api">
+              <i class="bx bx-link"></i>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="bottom-container">
-      <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/utsab-adhikari-b24b7b216/"
-        >LinkedIn</a
+    <section class="skills" id="skills">
+      <h2 class="heading">Skills</h2>
+      <div class="skills-bars">
+        <div class="bar">
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+
+        <div class="bar">
+          <div class="info">
+            <span>Javascript</span>
+          </div>
+          <div class="progress-line javascript">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>React</span>
+          </div>
+          <div class="progress-line react">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>MongoDB</span>
+          </div>
+          <div class="progress-line mongodb">
+            <span></span>
+          </div>
+        </div>
+
+        <div class="bar">
+          <div class="info">
+            <span>MySQL</span>
+          </div>
+          <div class="progress-line mysql">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form
+        action="mailto:utssabad10@gmail.com"
+        method="post"
+        enctype="text/plain"
       >
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number" />
+          <input type="text" placeholder="Subject" />
+        </div>
 
-      <a class="footer-link" href="https://www.facebook.com/utsab.adhikari.35"
-        >Facebook</a
-      >
-      <a class="footer-link" href="https://github.com/utsab1231/">Github</a>
+        <textarea placeholder="Your Message" rows="10" cols="30"></textarea>
+        <input
+          type="submit"
+          value="Send Message"
+          class="btn"
+          id="meessage-button"
+        />
+      </form>
+    </section>
 
-      <p>© Utsab Adhikari.</p>
-    </div>
+    <footer class="footer">
+      <div class="social">
+        <a href="https://github.com/utsab1231"><i class="bx bxl-github"></i></a>
+        <a href="https://linkedin.com/in/utsab01"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+        <a href="https://instagram.com/uts_ab"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/utsab.adhikari.35"
+          ><i class="bx bxl-facebook-square"></i
+        ></a>
+      </div>
+      <ul>
+        <p class="copyright">© Utsab Adhikari | All rights reserved</p>
+      </ul>
+    </footer>
+    <script src="./javascript/script.js"></script>
   </body>
 </html>
